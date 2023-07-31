@@ -154,7 +154,7 @@ const formatTime =(time) =>{
     if (sec <10){
         sec = '0' +sec;
     }
-    return  '${min} : ${sec}'
+    return  `${min} : ${sec}`;
 }
 
 /// seekBar events
